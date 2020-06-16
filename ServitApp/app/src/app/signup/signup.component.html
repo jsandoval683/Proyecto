@@ -1,0 +1,63 @@
+<html>
+    <body>
+        <div>
+            <h1>Crea tu cuenta</h1>
+        </div>
+        <form id="formulario" (submit)="signupUser($event)">
+
+            <div>
+                <br />
+            </div>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Nombre</mat-label>
+                <input matInput placeholder="Nombre" id="name">
+            </mat-form-field>
+        
+            <mat-form-field class="example-full-width">
+                <mat-label>Apellido</mat-label>
+                <input matInput placeholder="Apellido" id="familyName">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+        
+                <mat-label>Email</mat-label>
+                <input matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com" id="email">
+                <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                Please enter a valid email address
+                </mat-error>
+                <mat-error *ngIf="emailFormControl.hasError('required')">
+                Email is <strong>required</strong>
+                </mat-error><br />
+            </mat-form-field>
+        
+            <mat-form-field class="example-full-width">
+                <mat-label>Contraseña</mat-label>
+                <input matInput type="password" placeholder="Contraseña" id="password">
+            </mat-form-field>
+        
+            <mat-form-field class="example-full-width">
+                <mat-label>NickName</mat-label>
+                <input matInput placeholder="NickName" id="nickName">
+            </mat-form-field>
+        
+            <mat-form-field class="example-full-width">
+                <mat-label>Ciudad</mat-label>
+                <input matInput placeholder="Ciudad" id="location">
+            </mat-form-field>
+        
+            <button mat-raised-button color="primary" (click)="signupUser"><b>Registrar</b></button>
+
+            <div>
+                <br />
+            </div>
+                
+        </form>
+        <div class="divi">
+            <h1>¿Ya tienes una cuenta?</h1>
+            <button mat-raised-button color="accent" [routerLink]="['/login']"><b>Ingresar</b></button>
+        </div>
+        
+    </body>
+</html>
+

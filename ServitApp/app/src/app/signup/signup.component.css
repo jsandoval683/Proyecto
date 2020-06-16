@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(19, 10, 43);
+  text-align: center;
+
+}.divi{
+  text-align: center;
+}
+h1 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: Arial; 
+  text-align: center;
+}
+
+#formulario{
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #69F0AE;
+  /* border: 3px solid #69F0AE; */
+  width: 40%;
+}.example-full-width {
+  border-bottom-width: chartreuse;
+  width: 90%;
+}
+
+  

@@ -1,0 +1,40 @@
+<body>
+    <div>
+        <h1>Ingresa a tu cuenta</h1>
+    </div>
+    <form id="formulario">
+        
+        <div>
+            <br />
+        </div>
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com" id="email">
+            <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+            Please enter a valid email address
+            </mat-error>
+            <mat-error *ngIf="emailFormControl.hasError('required')">
+            Email is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+    
+        <mat-form-field class="example-full-width">
+            <mat-label>Contraseña</mat-label>
+            <input matInput type="password" placeholder="Contraseña" id="password">
+        </mat-form-field>
+
+        <button mat-raised-button color="primary"><b>Ingresar</b></button><br />
+        <div>
+            <br />
+        </div>
+
+    </form><br />
+
+    <div>
+        <h1>¿No tienes una cuenta?</h1>
+        <button mat-raised-button color="accent" [routerLink]="['/signup']"><b>Crear cuenta</b></button>
+    
+    </div>
+</body>
+

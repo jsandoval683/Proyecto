@@ -1,0 +1,12 @@
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\bin\Debug\netcoreapp2.0\WSServit.deps.json
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\bin\Debug\netcoreapp2.0\WSServit.runtimeconfig.json
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\bin\Debug\netcoreapp2.0\WSServit.runtimeconfig.dev.json
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\bin\Debug\netcoreapp2.0\WSServit.dll
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\obj\Debug\netcoreapp2.0\WSServit.csprojAssemblyReference.cache
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\obj\Debug\netcoreapp2.0\WSServit.AssemblyInfoInputs.cache
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\obj\Debug\netcoreapp2.0\WSServit.AssemblyInfo.cs
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\obj\Debug\netcoreapp2.0\WSServit.genruntimeconfig.cache
+C:\Users\Jaime Sandoval\source\repos\WSServit\WSServit\obj\Debug\netcoreapp2.0\WSServit.csproj.CoreCompileInputs.cache
